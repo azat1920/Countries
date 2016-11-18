@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Страны и столицы</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="summary">Количество вопросов: %1$d</string>
+    <string name="counts">Количество вопросов</string>
+    <string name="continents">Континеты</string>
+
+
+    <string-array name="entries">
+        <item>Европа</item>
+        <item>Азия</item>
+        <item>Северная Америка</item>
+        <item>Южная Америка</item>
+        <item>Африка</item>
+        <item>Австралия и Океания</item>
+    </string-array>
+
+    <string-array name="entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string name="resume_1">Столицы</string>
+    <string name="resume_2">Впиши столицу</string>
+    <string name="resume_3">Страны</string>
+    <string name="resume_4">Впиши страну</string>
+    <string name="preferences">Настройки</string>
+    
+    
+    
+    <string name="right">Правильных ответов: </string>
+    <string name="dont_know">Не знаю</string>
+    <string name="check">Проверить</string>
+    <string name="again">Начать заново</string>
+    <string name="exit">Выйти в меню</string>
+</resources>

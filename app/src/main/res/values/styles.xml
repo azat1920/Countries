@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="PrefStyle">
+        <item name="android:background">@color/layout_bg</item>
+        <item name="android:textColor">@color/white_color</item> <!-- Text of titles -->
+        <item name="android:textColorPrimary">@color/black</item> <!-- Text of elements -->
+        <item name="android:textColorSecondary">@color/gray_color</item> <!-- Text of elements hint -->
+        <item name="android:textColorPrimaryInverse">@color/black</item>
+        <item name="android:colorActivatedHighlight">@color/black</item>
+        <item name="android:windowNoTitle">true</item>
+
+
+    </style>
+
+    <style name="MultyPrefStile">
+        <item name="android:textColor">@color/black</item>
+
+    </style>
+    <style name="btn_color">
+        <item name="android:background">#FFAC06</item>
+    </style>
+</resources>

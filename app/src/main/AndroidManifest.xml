@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="randomapps.countries">
+
+    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="23"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ClassicMode"
+            android:label="Classic mode"></activity>
+        <activity
+            android:name=".Settings"
+            android:label="Settings"></activity>
+        <activity
+            android:name=".Preferences"
+            android:label="Preferences"
+            android:theme="@style/PrefStyle"></activity>
+        <activity
+            android:name=".ManuallyMode"
+            android:label="ManuallyMode"></activity>
+        <activity android:name=".ClassicCountries"
+            android:label="CountriesMode"/>
+        <activity android:name=".ManuallyCountries"
+            android:label="CountriesManuallyMode"/>
+    </application>
+
+</manifest>
